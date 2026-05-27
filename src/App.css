@@ -1,0 +1,29 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  cursor: url("/cursor.png"), auto;
+} 
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+  color: #F5C16C;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: url("/hover.png"), auto;
+}
+
+ul{
+  list-style: none;
+}

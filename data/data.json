@@ -1,0 +1,276 @@
+{
+  "projects": [
+  {
+    "title": "E-TODO",
+    "subtitle": "Application de Gestion de Tâches Collaborative & Multi-conteneurs",
+    "shortDescription": "Solution logicielle de productivité avancée développée en équipe de 4, intégrant un espace collaboratif (gestion d'utilisateurs, espaces partagés), une interface interactive en glisser-déposer et une infrastructure isolée entièrement conteneurisée.",
+    "longDescription": "Ce projet redéfinit l'application de productivité classique en y injectant une dimension collaborative et sociale forte. Développée au sein d'une équipe de 4 ingénieurs, cette plateforme permet non seulement de gérer des objectifs individuels, mais aussi de se connecter à un réseau d'utilisateurs et de collaborer au sein d'espaces de travail partagés en temps réel. Côté interface, l'accent a été mis sur l'expérience utilisateur (UX) avec un système fluide de Drag & Drop pour modifier l'état des éléments, et un rendu visuel conçu intégralement sans framework tiers, garantissant une légèreté maximale et un contrôle absolu du design system. Le projet intègre également une gestion fine du cycle de vie des données grâce à un système de corbeille permettant l'archivage et la restauration complète d'éléments supprimés.",
+    "img": "/etodo.png",
+    "url": "",
+    "color": "#059212",
+    "linkTxt": "Consulter le projet",
+    "teamSize": 4,
+    "stack": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "JWT",
+      "Docker"
+    ],
+    "architecture": [
+      {
+        "layer": "Interface Utilisateur (Client)",
+        "details": "Composants dynamiques et optimisés pour une mise à jour fluide de l'affichage."
+      },
+      {
+        "layer": "Logique Métier & API (Serveur)",
+        "details": "Architecture modulaire centralisée gérant le routage, les opérations de données (CRUD) et la sécurité."
+      },
+      {
+        "layer": "Persistance des Données (Stockage)",
+        "details": "Modèle relationnel SQL avec contraintes d'intégrité et clés étrangères pour lier les entités."
+      }
+    ],
+    "security": [
+      "Chiffrement et hachage des données sensibles (Bcrypt.js)",
+      "Contrôle d'accès et sessions sécurisées par jetons (JWT)",
+      "Gestion sécurisée et isolation des variables d'environnement (.env)"
+    ],
+    "design": {
+      "system": "CSS natif / pur",
+      "details": "Maîtrise totale de la charte graphique, de l'accessibilité et de la mise en page sans dépendance externe."
+    },
+    "features": [
+      {
+        "name": "Espace Social & Collaboratif",
+        "description": "Système de gestion de relations utilisateurs couplé à la création de tableaux de bord partagés pour un suivi collaboratif."
+      },
+      {
+        "name": "UX Interactive (Drag & Drop)",
+        "description": "Réorganisation et modification visuelle et fluide du statut des données par glisser-déposer au sein de l'interface."
+      },
+      {
+        "name": "Cycle de Vie des Données (Corbeille)",
+        "description": "Implémentation d'un système de suppression logique permettant l'archivage, la consultation et la récupération d'anciens enregistrements."
+      }
+    ],
+    "infrastructureAndDeployment": {
+      "environment": "Architecture découpée en services isolés et interconnectés (conteneurs), éliminant les conflits de configuration locaux et déployable via une commande unique.",
+      "tools": ["Docker", "Docker Compose"]
+    },
+    "management": {
+      "workflow": "Gestion active des versions, révision de code et suivi des flux de travail en équipe.",
+      "tools": ["GitHub"]
+    }
+  },
+  {
+    "title": "Veiloo",
+    "subtitle": "Plateforme Sociale d'Inspiration Visuelle & Partage Anonyme Sécurisé",
+    "shortDescription": "Une alternative moderne et sécurisée inspirée de Pinterest, conçue pour le partage de contenus artistiques. Développée en MVP à la suite d'un processus rigoureux de Product Design, elle permet aux jeunes créatifs d'interagir et de trouver l'inspiration avec une option d'anonymat total.",
+    "longDescription": "Veiloo répond à l'évolution rapide des plateformes sociales où les utilisateurs recherchent des interactions plus ciblées et respectueuses de leur vie privée. Conçu comme un 'Pinterest revisité', ce produit résout la frustration des jeunes créateurs de contenu qui manquent d'espaces sécurisés pour publier leurs œuvres sans la pression de leur identité numérique réelle. En suivant une démarche complète de Product Design — de la recherche utilisateur (entretiens, personas, parcours) au prototypage itératif sur Figma — l'équipe a défini et implémenté un MVP fonctionnel. L'application propose une expérience épurée, axée sur la découverte visuelle, le contrôle de la confidentialité et le confort de lecture grâce à une gestion native de la luminosité de l'interface.",
+    "img": "veiloo.png",
+    "url": "",
+    "color": "#06D001",
+    "linkTxt": "Découvrir l'étude de cas",
+    "teamSize": 4,
+    "stack": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Figma"
+    ],
+    "architecture": [
+      {
+        "layer": "Interface Utilisateur (Client)",
+        "details": "Application web single-page (SPA) réactive dédiée à la navigation fluide dans un flux continu de médias visuels."
+      },
+      {
+        "layer": "Logique Métier & API (Serveur)",
+        "details": "API REST gérant la publication de contenus, l'anonymisation des données à la volée et le routage des interactions."
+      },
+      {
+        "layer": "Persistance des Données (Stockage)",
+        "details": "Base de données relationnelle structurée pour lier de manière sécurisée les utilisateurs, leurs publications (posts), les commentaires et les systèmes de réactions."
+      }
+    ],
+    "security": [
+      "Système d'anonymat optionnel garantissant la dissociation de l'identité de l'auteur sur les publications publiques.",
+      "Passerelle d'authentification sécurisée pour restreindre la gestion du contenu aux utilisateurs légitimes."
+    ],
+    "design": {
+      "system": "Prototypage Figma & Intégration UI/UX",
+      "details": "Conception centrée utilisateur incluant la création de wireframes basse fidélité, de maquettes haute fidélité interactives et d'une double déclinaison graphique native (Mode Sombre / Mode Clair)."
+    },
+    "features": [
+      {
+        "name": "Authentification & Profils",
+        "description": "Espace utilisateur sécurisé permettant d'accéder aux fonctionnalités de publication et d'interaction de la plateforme."
+      },
+      {
+        "name": "Flux d'Inspiration Interactif",
+        "description": "Affichage dynamique d'un flux de posts visuels avec possibilité d'émettre des réactions et de déposer des commentaires."
+      },
+      {
+        "name": "Création & Publication de Médias",
+        "description": "Interface simplifiée de téléversement et de partage de photos avec configuration des paramètres de visibilité et d'anonymat."
+      },
+      {
+        "name": "Thème Adaptatif (Light / Dark)",
+        "description": "Bouton d'inversion de polarité lumineuse intégré pour améliorer le confort visuel lors de la recherche d'inspiration de nuit."
+      }
+    ],
+    "infrastructureAndDeployment": {
+      "environment": "Code source structuré et documenté selon les exigences d'un livrable MVP, accompagné d'un guide complet d'installation locale.",
+      "tools": ["Git", "GitHub"]
+    },
+    "management": {
+      "workflow": "Processus Product Design complet articulé autour de 9 phases documentées (Benchmark, Personas, User Journey, Matrice de priorisation MoSCoW, Pitch Deck).",
+      "tools": ["GitHub", "Figma"]
+    }
+  },
+  {
+    "title": "Quantix",
+    "subtitle": "Agent Conversationnel FinTech d'Analyse Boursière en Temps Réel",
+    "shortDescription": "Solution d'intelligence artificielle de pointe conçue de zéro sous forme de bot Discord, fournissant des analyses et des données boursières en temps réel à travers une interface conversationnelle stricte et hautement sécurisée.",
+    "longDescription": "Quantix est un assistant virtuel développé pour répondre aux exigences de rapidité et de précision du secteur financier. Pensé comme un produit technologique à forte valeur ajoutée pour les professionnels et les investisseurs, ce chatbot se distingue par son positionnement sérieux, pragmatique et purement factuel. Conçu entièrement de zéro, il intègre un mécanisme d'extraction de données boursières instantanées combiné à un modèle de traitement du langage naturel (NLP) configuré pour reformuler et humaniser les réponses complexes. Le projet intègre une dimension éthique et légale stricte : le bot s'interdit contractuellement tout conseil en investissement et applique une politique de confidentialité absolue en ne conservant aucune trace des conversations.",
+    "img": "/clima.png",
+    "url": "",
+    "color": "#F3FF90",
+    "linkTxt": "Découvrir la solution FinTech",
+    "teamSize": 4,
+    "stack": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Discord.js",
+      "Docker",
+      "NLP Model"
+    ],
+    "architecture": [
+      {
+        "layer": "Interface Utilisateur & Canaux",
+        "details": "Déploiement d'une double interface incluant une Landing Page promotionnelle réactive et un point d'entrée conversationnel natif intégré sur Discord."
+      },
+      {
+        "layer": "Moteur Logique & Traitement (Serveur)",
+        "details": "Serveur centralisé orchestrant la consommation d'API financières tierces, l'exécution des algorithmes de calcul boursier et la liaison avec le modèle linguistique."
+      },
+      {
+        "layer": "Couche d'Analyse Neutre (Modèle)",
+        "details": "Mise en place d'une surcouche d'intelligence artificielle dédiée au lissage sémantique, transformant les flux de données brutes en réponses fluides et compréhensibles."
+      }
+    ],
+    "security": [
+      "Garantie éthique de non-conservation : absence totale de persistance des données textuelles et des historiques de conversation en base de données.",
+      "Garde-fous algorithmiques bloquant l'émission de conseils de placement ou de spéculation financière."
+    ],
+    "design": {
+      "system": "Identité Institutionnelle & Neutre",
+      "details": "Création d'une image de marque sobre et d'une personnalité de bot volontairement neutre, impersonnelle et pragmatique pour asseoir la crédibilité des données transmises."
+    },
+    "features": [
+      {
+        "name": "Flux Boursier Temps Réel",
+        "description": "Interrogation et restitution instantanée des cours de la bourse et des indicateurs macro-économiques via des requêtes API directes."
+      },
+      {
+        "name": "Lissage Sémantique par IA",
+        "description": "Traitement du langage naturel intégré pour humaniser les structures de phrases et rendre les rapports financiers accessibles sans perte de précision."
+      },
+      {
+        "name": "Landing Page Institutionnelle",
+        "description": "Vitrine de promotion du produit mettant en avant sa proposition de valeur, sa stratégie marketing, ses KPIs de rentabilité et ses cas d'usage."
+      }
+    ],
+    "infrastructureAndDeployment": {
+      "environment": "Conteneurisation complète du système pour un déploiement et une isolation parfaits de l'environnement d'exécution de l'IA et du serveur de messagerie.",
+      "tools": ["Docker"]
+    },
+    "management": {
+      "workflow": "Analyse marketing approfondie incluant le calcul du retour sur investissement (ROI) potentiel et définition de la matrice de responsabilité éthique.",
+      "tools": ["GitHub"]
+    }
+  },
+  {
+    "title": "NovaJob",
+    "subtitle": "Plateforme Industrielle d'Agrégation d'Offres d'Emploi, d'Analyse Data et de Recommandation IA",
+    "shortDescription": "Produit complet de fin d'année développé en équipe, connectant de vraies données du marché (Partenariat WeLoveDevs) à un moteur de recommandation IA (SentenceTransformers). L'architecture moderne associe un pipeline d'ingestion asynchrone, un filtrage avancé cumulatif, une sécurité renforcée et un déploiement CI/CD automatisé.",
+    "longDescription": "NovaJob est une plateforme d'agrégation d'offres d'emploi conçue pour simuler les exigences strictes d'un produit en production. Développé en équipe, le système ingère, normalise et centralise les données du marché de l'emploi en s'appuyant sur l'API WeLoveDevs, tout en respectant des contraintes de débit rigoureuses. Au-delà de la centralisation, NovaJob apporte une réelle valeur décisionnelle grâce à un outil de filtrage avancé cumulatif et un modèle d'intelligence artificielle léger embarqué, capable de délivrer des recommandations hautement personnalisées selon le profil des utilisateurs. L'application propose une expérience épurée, axée sur la découverte visuelle, le contrôle de la confidentialité et le confort de lecture grâce à une gestion native de la luminosité de l'interface.",
+    "img": "/nova.png",
+    "url": "https://miror-job.vercel.app?_vercel_share=rjUyLI0BO6IF8NarJ58pc0BqirwnFDUp",
+    "color": "#059212",
+    "linkTxt": "Explorer la plateforme",
+    "teamSize": 4,
+    "stack": [
+      "Next.js",
+      "Node.js",
+      "Express",
+      "Prisma ORM",
+      "PostgreSQL",
+      "SentenceTransformers",
+      "Docker",
+      "GitHub Actions",
+      "Railway",
+      "Vercel"
+    ],
+    "architecture": [
+      {
+        "layer": "Interface Utilisateur (Front-End Cloud)",
+        "details": "Déploiement d'une application Next.js sur Vercel, offrant un tableau de bord réactif, accessible (normes WCAG 2.1 AA) et intégrant les visualisations de données en temps réel."
+      },
+      {
+        "layer": "Logique Métier & Moteur d'Ingestion (Back-End Cloud)",
+        "details": "API REST robuste sous Node.js/Express hébergée sur Railway, exploitant l'ORM Prisma pour la communication avec la base de données et pilotant le traitement des flux externes."
+      },
+      {
+        "layer": "Intelligence Artificielle Locale",
+        "details": "Intégration d'un modèle SentenceTransformers optimisé (< 500 Mo) pour générer des plongements lexicaux (embeddings) et calculer des scores de pertinence pour la recommandation d'offres."
+      },
+      {
+        "layer": "Persistance & Stockage Relationnel",
+        "details": "Base de données PostgreSQL managée, structurée pour assurer l'intégrité des rôles, des profils utilisateurs et des volumes d'offres d'emploi normalisées."
+      }
+    ],
+    "security": [
+      "Couche de validation stricte des données entrantes via Zod (protection contre les injections SQL) et nettoyage des rendus contre les failles XSS via DOMPurify.",
+      "Politique d'authentification robuste avec hachage sécurisé des mots de passe et cloisonnement strict des privilèges (RBAC) au niveau serveur.",
+      "Middleware de restriction de requêtes (Rate Limiter) pour contrer les tentatives d'attaques par force brute sur les interfaces d'accès."
+    ],
+    "design": {
+      "system": "Design System Accessible & Inclusif",
+      "details": "Interface utilisateur pensée pour l'accessibilité numérique, auditée via des outils automatisés pour valider la conformité aux critères du standard WCAG 2.1 AA."
+    },
+    "features": [
+      {
+        "name": "Pipeline d'Ingestion Synchrone & Résilient",
+        "description": "Collecte automatisée des offres d'emploi incluant un mécanisme de temporisation intelligente (sleep de 3s) pour respecter scrupuleusement les limitations des API partenaires, suivi d'une phase de normalisation des données avant stockage."
+      },
+      {
+        "name": "Système de Filtrage Cumulatif",
+        "description": "Outil d'exploration de données avancé permettant d'additionner des critères d'affinage complexes pour croiser instantanément les contrats, technologies, salaires et localisations."
+      },
+      {
+        "name": "Moteur de Recommandation Sémantique",
+        "description": "Algorithme d'IA prédictif qui analyse les compétences et préférences extraites du profil utilisateur pour lui suggérer les opportunités les plus pertinentes de manière contextuelle."
+      },
+      {
+        "name": "Espace d'Administration & Modération",
+        "description": "Interface de contrôle dédiée aux administrateurs pour la modération des flux d'offres, la gestion des comptes utilisateurs et la supervision des indicateurs de la plateforme."
+      }
+    ],
+    "infrastructureAndDeployment": {
+      "environment": "Écosystème conteneurisé sous Docker pour le développement local. Déploiement Cloud automatisé et segmenté : infrastructure serveur, IA et base de données isolées sur Railway, interface utilisateur propulsée par Vercel.",
+      "tools": ["Docker", "Docker Compose", "Railway", "Vercel"]
+    },
+    "management": {
+      "workflow": "Pipeline d'intégration et de déploiement continus (CI/CD) configuré avec GitHub Actions sur runners auto-hébergés (self-hosted), exécutant automatiquement les builds, les linters et les suites de tests unitaires (API et fonctions de normalisation) à chaque mise à jour du code source.",
+      "tools": ["GitHub Actions", "Git", "Architecture Decision Records (ADR)"]
+    }
+  }
+  ]
+}

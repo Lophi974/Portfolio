@@ -1,0 +1,55 @@
+{
+  "background": {
+    "main": "#001F3D"
+  },
+
+  "text": {
+    "main": "#F5F7FA",
+    "muted": "#B0C4DE"
+  },
+
+  "accents": {
+    "gold": "#F5C16C",
+    "purple": "#8A2BE2"
+  },
+
+  "pages": {
+    "page1": {
+      "name": "Intro",
+      "main": "#F5C16C",
+      "soft": "rgba(245,193,108,0.15)"
+    },
+    "page2": {
+      "name": "About me",
+      "main": "#8A2BE2",
+      "soft": "rgba(138,43,226,0.15)"
+    },
+    "page3": {
+      "name": "Tech / WebGL",
+      "main": "#00E5FF",
+      "soft": "rgba(0,229,255,0.15)"
+    },
+    "page4": {
+      "name": "Design / UI",
+      "main": "#F80788",
+      "soft": "rgba(248,7,136,0.15)"
+    },
+    "page5": {
+      "name": "Contact / Final",
+      "main": "#6AFF8F",
+      "soft": "rgba(106,255,143,0.15)"
+    }
+  },
+
+  "ui": {
+    "button": {
+      "text": "#001F3D",
+      "border": "currentColor",
+      "hoverText": "#001F3D"
+    },
+    "link": {
+      "default": "var(--page-main)",
+      "hover": "#F5C16C"
+    }
+  }
+}
