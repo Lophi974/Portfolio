@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./block2.css";
 import AnimatedBackground from "./test";
 
-const words = ["Student", "Frontend Developer", "Backend Developer"];
+const words = ["Étudiant", "Développeur Frontend", "Développeur Backend"];
 const colors = ["#1F3A5F", "#501363", "#66181f"];
 
 export function Block2() {
@@ -24,11 +24,11 @@ export function Block2() {
       <div style={{zIndex:"1", backgroundColor:"#995527", width:"80%", boxShadow:"0px 0px 35px 5px #d8b485", borderRadius:"33px", display:"flex", justifyContent:"center", alignItems:"center", height:"30rem"}}>
       <div style={{display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
         <h2 className="block2-h2">
-          <span >I'm a <span style={{ fontWeight: "bold", color: colors[currentIndex] }} className="word-for-span">{words[currentIndex]}</span> </span>
+          <span>Je suis <span style={{ fontWeight: "bold", color: colors[currentIndex] }} className="word-for-span">{words[currentIndex]}</span></span>
         </h2>
         <p className="block2-p">
-           I'm <span>Philippe ROCHEFEUILLE </span> i'm <span>24 years old</span>, i'm a Student from <span>EPITECH</span> and I'm from <span>REUNION Island</span>.
-           I'm studing <span>FullStack Developement</span> and <span>Logical Algorisme</span>
+           Je suis <span>Philippe ROCHEFEUILLE</span>, j'ai <span>24 ans</span>, je suis étudiant à <span>EPITECH</span> et je viens de <span>La Réunion</span>.
+           J'étudie le <span>développement FullStack</span> et l'<span>algorithmique</span>.
         </p>
       </div>
       </div>

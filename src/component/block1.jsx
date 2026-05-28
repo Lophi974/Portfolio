@@ -21,8 +21,8 @@ export function Block1() {
 
                 <nav>
                     <ul className="block1-ul">
-                        <a href="#block2" className={`block1-li ${mouted ? "page--enter2" : ""} `}><span className="block1-links" >About me</span></a>
-                        <a href="#block3" className={`block1-li ${mouted ? "page--enter3" : ""}`}><span  className="block1-links" >Experience</span></a>
+                        <a href="#block2" className={`block1-li ${mouted ? "page--enter2" : ""} `}><span className="block1-links" >À propos</span></a>
+                        <a href="#block3" className={`block1-li ${mouted ? "page--enter3" : ""}`}><span  className="block1-links" >Expérience</span></a>
                         {/* <a href="#block4"className={`block1-li ${mouted ? "page--enter4" : ""}`}><span  className="block1-links" >Work</span></a> */}
                         <a href="#block5"className={`block1-li ${mouted ? "page--enter5" : ""}`}><span  className="block1-links" >Contact</span></a>
                     </ul>

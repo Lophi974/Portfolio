@@ -15,12 +15,12 @@
 
   "pages": {
     "page1": {
-      "name": "Intro",
+      "name": "Introduction",
       "main": "#F5C16C",
       "soft": "rgba(245,193,108,0.15)"
     },
     "page2": {
-      "name": "About me",
+      "name": "À propos",
       "main": "#8A2BE2",
       "soft": "rgba(138,43,226,0.15)"
     },
@@ -35,7 +35,7 @@
       "soft": "rgba(248,7,136,0.15)"
     },
     "page5": {
-      "name": "Contact / Final",
+      "name": "Contact",
       "main": "#6AFF8F",
       "soft": "rgba(106,255,143,0.15)"
     }
