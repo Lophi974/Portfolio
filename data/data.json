@@ -137,7 +137,7 @@
     "subtitle": "Agent Conversationnel FinTech d'Analyse Boursière en Temps Réel",
     "shortDescription": "Solution d'intelligence artificielle de pointe conçue de zéro sous forme de bot Discord, fournissant des analyses et des données boursières en temps réel à travers une interface conversationnelle stricte et hautement sécurisée.",
     "longDescription": "Quantix est un assistant virtuel développé pour répondre aux exigences de rapidité et de précision du secteur financier. Pensé comme un produit technologique à forte valeur ajoutée pour les professionnels et les investisseurs, ce chatbot se distingue par son positionnement sérieux, pragmatique et purement factuel. Conçu entièrement de zéro, il intègre un mécanisme d'extraction de données boursières instantanées combiné à un modèle de traitement du langage naturel (NLP) configuré pour reformuler et humaniser les réponses complexes. Le projet intègre une dimension éthique et légale stricte : le bot s'interdit contractuellement tout conseil en investissement et applique une politique de confidentialité absolue en ne conservant aucune trace des conversations.",
-    "img": "/clima.png",
+    "img": "/quantix.png",
     "url": "",
     "color": "#F3FF90",
     "linkTxt": "Découvrir la solution FinTech",
